@@ -1,0 +1,279 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family:'Poppins', sans-serif;
+}
+.navbar1 {
+    height: 12px;
+    display: flex;
+    background: linear-gradient(90deg, #812868 0%, #f954a4 100%);
+    color: #fff;
+    padding: 8px 0px;
+    text-align: center;
+    align-items: center;
+    
+    
+}
+.navbar1 .title {
+    font-size: 11px;
+    margin-left: 20%;
+}
+.phonenumber {
+    display: flex;
+    margin-left: 5%;
+    text-align: center;
+    justify-content: center;
+    
+}
+.phonenumber a {
+    text-decoration: none;
+    color: white;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+      
+}
+.mail a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+    margin-left: 10px;
+
+}
+.header-social {
+    list-style: none;
+    display: inline;
+
+}
+.header-social li {
+    display: inline;
+    padding: 5px;
+}
+.header-social li a {
+    color: white;
+    font-size: 10px;
+
+}
+.n2 { 
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+}
+.logo {
+    max-width: 50px;
+    margin-left: 20%;
+    margin-top: 5px;
+}
+#menu {
+    margin-left: 3%;
+}
+#menu ul {
+    list-style: none;
+   
+}
+#menu ul li {
+    display: inline;
+}
+#menu ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+    padding: 5px;
+    
+}
+
+#menu ul li a:hover {
+    color: #812868;
+    border-top: 1px solid #812868;
+    border-bottom: 1px solid #812868;
+}
+.slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  /* Number text (1/3 etc) */
+  .numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+.info {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items:center;
+}
+.info h1 {
+    margin-top: 100px;
+    font-size: 25px;
+}
+.info p {
+    font-size: 10px;
+    text-align: center;
+    align-items: center;
+    max-width: 710px;
+}
+.info strong {
+    font-size: 10px;
+}
+.readMore {
+    max-width: 500px;
+    margin: 0 50vh;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%);
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 25px;
+   border: 2px solid white;
+}
+.onlineClasses {
+    background: linear-gradient(rgba(0, 0, 0, 0.893),rgba(85, 85, 85, 0.699)), url("./phone.jpg");
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+}
+.onlineClasses h1 {
+    color: white;
+    font-size: 20px;
+    margin-left: 20%;
+    margin-top: 30px;
+}
+.onlineClasses p {
+    padding: 0;
+    color: white;
+    font-size: 10px;
+    max-width: 300px;
+    margin-left: 20%;
+}
+.onlineClasses strong {
+    color: white;
+    margin-left: 20%;
+    margin-top: 50px;
+    font-size: 13px;
+
+}
+.download {
+    display: flex;
+    flex-direction: column;
+}
+.download1 {
+    cursor: pointer;
+
+    margin-left: 255px;
+}
+.download2 {
+    display: inline;
+    margin-left: 260px;
+    cursor: pointer;
+}
+.readmore {
+    background: linear-gradient( 90deg, rgba(177, 30, 111, 1) 0%, rgba(74, 14, 192, 1) 100%);
+    max-width: 500px;
+    margin-left: 20%;
+    color: white;
+    border-radius: 25px;
+    border: none;
+    padding: 10px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   margin-top: 25px;
+   border: 2px solid white;
+}
+
